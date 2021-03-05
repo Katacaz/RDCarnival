@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7712771084066574394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7712771084066574392}
+  - component: {fileID: 7712771084066574393}
+  - component: {fileID: 7712771084066574391}
+  m_Layer: 0
+  m_Name: Global Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7712771084066574392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7712771084066574394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 461.0669, y: 316.47128, z: -7.2540283}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7712771084066574393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7712771084066574394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e04f8422aec1a74db1eb44cc88cb184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roundSettings:
+    useLives: 0
+    lives: 2
+    health: 3
+    useTimer: 0
+    roundTimer: 30
+    useTeams: 0
+    friendlyFire: 0
+    powerups: 0
+    scoreSortMethod: 0
+    spectateNPCs: 0
+--- !u!114 &7712771084066574391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7712771084066574394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1295c406945724493fc3686cc6507e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teams:
+  - teamName: 
+    teamID: 0
+    teamIcon: {fileID: 21300000, guid: 5c520fe02b839c34bb8f48ef0584e92b, type: 3}
+    teamColor: {r: 0, g: 0, b: 0, a: 1}
+    teamMembers: []
+    totalTeamScore: 0
+    totalTeamMembers: 0
+  - teamName: Duck
+    teamID: 1
+    teamIcon: {fileID: 21300000, guid: 63ca54727ff406941b90628e48bafea5, type: 3}
+    teamColor: {r: 0, g: 0.0042738914, b: 1, a: 1}
+    teamMembers: []
+    totalTeamScore: 0
+    totalTeamMembers: 0
+  - teamName: Cat
+    teamID: 2
+    teamIcon: {fileID: 21300000, guid: a78336215c3fc0041ae618ae37f96189, type: 3}
+    teamColor: {r: 1, g: 0.51841265, b: 0, a: 1}
+    teamMembers: []
+    totalTeamScore: 0
+    totalTeamMembers: 0
+  - teamName: Eagle
+    teamID: 3
+    teamIcon: {fileID: 21300000, guid: a17fde523babc6442b0fd78b43388590, type: 3}
+    teamColor: {r: 0.0047169924, g: 1, b: 0.99025434, a: 1}
+    teamMembers: []
+    totalTeamScore: 0
+    totalTeamMembers: 0
+  - teamName: Frog
+    teamID: 4
+    teamIcon: {fileID: 21300000, guid: 2a330ab160d1f0842a29068585c3f4a6, type: 3}
+    teamColor: {r: 0.026432883, g: 0.6226415, b: 0.049813684, a: 1}
+    teamMembers: []
+    totalTeamScore: 0
+    totalTeamMembers: 0
+  - teamName: Octopus
+    teamID: 5
+    teamIcon: {fileID: 21300000, guid: 02d4fd55ec271d44ca582b1cc873d78f, type: 3}
+    teamColor: {r: 0.480725, g: 0, b: 0.8396226, a: 1}
+    teamMembers: []
+    totalTeamScore: 0
+    totalTeamMembers: 0
+  - teamName: Snake
+    teamID: 6
+    teamIcon: {fileID: 21300000, guid: 9689bdc2427fb9a468ec4385cc67dac3, type: 3}
+    teamColor: {r: 1, g: 0.9397107, b: 0, a: 1}
+    teamMembers: []
+    totalTeamScore: 0
+    totalTeamMembers: 0
+  - teamName: Turtle
+    teamID: 7
+    teamIcon: {fileID: 21300000, guid: c163b1ba245dc7443b78751c98ef53c0, type: 3}
+    teamColor: {r: 0, g: 1, b: 0.56861687, a: 1}
+    teamMembers: []
+    totalTeamScore: 0
+    totalTeamMembers: 0
+  - teamName: Koala
+    teamID: 8
+    teamIcon: {fileID: 21300000, guid: 00618e686553cfd4d817f5bcb3ea7fc6, type: 3}
+    teamColor: {r: 0.41509432, g: 0.25515103, b: 0.16251333, a: 1}
+    teamMembers: []
+    totalTeamScore: 0
+    totalTeamMembers: 0
